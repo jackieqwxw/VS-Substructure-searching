@@ -1,0 +1,13 @@
+input.smi
+Numbers of fragments:3, they are ['Adenine', 'Sulfone', 'Tetrazole']
+Numbers of Smiles in database: 100000
+##############################################################
+#  Substructure searching for virtual screening
+#
+#  Computational Biophysics & Drug Design (Kireev lab)
+#
+#  Developed by Xiaowen Wang
+##############################################################
+
+Hit numbers of substructure matches after removing duplicates): 268
+Time taken to execute commands is 2.16 minites.
