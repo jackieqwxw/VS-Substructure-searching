@@ -18,7 +18,7 @@ Run the script:
 ```
 python ./substructure_search.py fragments.sdf $dbinp ${file}.smi ${file}.csv
 ```
-*`fragments.sdf` stores the substructure fragments used for searching. The variable `$dbinp` is SMILES file name of database used for substructure searching. The `$file` denotes the outputfile name. This script is considered as an example to search the database file with the fragments of adenine + sulfone or adenine + tetrazole combinations. It will generate two types of files. One file is ${file}.smi with the format `SMILES ID` and the other file is ${file}.csv with the format `SMILES ID NAMEOFMATCHSUBSTRUCTURE`. 
+* `fragments.sdf` stores the substructure fragments used for searching. The variable `$dbinp` is SMILES file name of database used for substructure searching. The `$file` denotes the outputfile name. This script is considered as an example to search the database file with the fragments of adenine + sulfone or adenine + tetrazole combinations. It will generate two types of files. One file is ${file}.smi with the format `SMILES ID` and the other file is ${file}.csv with the format `SMILES ID NAMEOFMATCHSUBSTRUCTURE`. 
 
 
 ## Execute the substructure searching in batch
