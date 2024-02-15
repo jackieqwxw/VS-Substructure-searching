@@ -27,7 +27,7 @@ If you perfer to perform substructure searching for a large ligand collection. F
 split -l 10000 -d -e --additionl-suffix=.smi input.smi outprefixhere
 ```
 ```
-ls -wc
+ls | wc -l
 ```
 ```
 sbatch substructure_search.sh
