@@ -22,7 +22,7 @@ python ./substructure_search.py fragments.sdf $dbinp ${file}.smi ${file}.csv
 
 
 ## Execute the substructure searching in batch
-If you perfer to perform substructure searching for a large ligand collection. First, split database into multiple small files. Then use the bash script `substructure_search.sh` to perform the calculations in bath.
+If you perfer to perform substructure searching for a large ligand collection. First, split database into multiple small files. Then use the bash script `substructure_search.sh` to perform the calculations in batch.
 ```
 split -l 10000 -d -e --additionl-suffix=.smi input.smi outprefixhere
 ```
